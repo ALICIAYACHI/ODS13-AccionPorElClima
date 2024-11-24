@@ -19,14 +19,15 @@
         .preguntas {
             background-color: rgba(0, 0, 0, 0.459);
         }
+
         .hidden {
-    display: none;
-}
-
-
-        
+            display: none;
+        }
+        .section{
+            margin-top: 50px !important;
+        }
     </style>
-    
+
 </head>
 
 <body>
@@ -49,21 +50,31 @@
             <div class="dropdown">
                 <a href="" class="dropbtn">Educación</a>
                 <div class="dropdown-content">
-                    <a href="Recursos.html" class="text-white font-semibold" >Recursos</a>
-                    <a href="Cursos.html" class="text-white font-semibold" >Cursos</a>
-                    <a href="FAQ.html" class="text-white font-semibold" >FAQ</a>
+                    <a href="Recursos.html" class="text-white font-semibold">Recursos</a>
+                    <a href="Cursos.html" class="text-white font-semibold">Cursos</a>
+                    <a href="FAQ.html" class="text-white font-semibold">FAQ</a>
                 </div>
             </div>
             <div class="dropdown">
                 <a href="#" class="dropbtn">Noticias</a>
                 <div class="dropdown-content">
-                    <a href="politicas-climaticas.html" class="text-white font-semibold" >Politicas Climaticas</a>
-                    <a href="tecnologia-verde.html" class="text-white font-semibold" >Tecnología verde</a>
-                    <a href="impactos-climaticos.html" class="text-white font-semibold" >Impactos Climaticos</a>
-                    <a href="proyectos-sostenibles.html" class="text-white font-semibold" >Proyectos Sostenibles</a>
+                    <a href="Apptiempo.html" class="text-white font-semibold">Aplicación de Tiempo</a>
+                    <a href="politicas-climaticas.html" class="text-white font-semibold">Politicas Climaticas</a>
+                    <a href="tecnologia-verde.html" class="text-white font-semibold">Tecnología verde</a>
+                    <a href="impactos-climaticos.html" class="text-white font-semibold">Impactos Climaticos</a>
+                    <a href="proyectos-sostenibles.html" class="text-white font-semibold">Proyectos Sostenibles</a>
                 </div>
             </div>
-            <a href="Recolección.html">Recolección</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Recolección</a>
+                <div class="dropdown-content">
+                    <a href="Equipo.html" class="text-white font-semibold">Equipo</a>
+                    <a href="focus-group.html" class="text-white font-semibold">Focus group</a>
+                    <a href="Encuestas.html" class="text-white font-semibold">Encuestas</a>
+                    <a href="Entrevistas.html" class="text-white font-semibold">Entrevistas</a>
+                    <a href="FlashHallazgos.html" class="text-white font-semibold">Flash De Hallazgos</a>
+                </div>
+            </div>
         </nav>
     </header>
 </body>
@@ -78,233 +89,178 @@
                 climático. Comprender sus causas y efectos nos empodera para tomar acciones significativas y crear un
                 futuro sostenible para todos.</p>
 
-                <div class="bg-white p-6 rounded-lg shadow-md mb-6">
-                    <h3 class="text-2xl font-semibold">Introducción al Cambio Climático</h3>
-                    <p class="text-gray-500">4 Semanas | En Línea</p>
-                    <p class="text-gray-700 mt-2">Aprende los fundamentos del cambio climático y sus impactos globales.</p>
-                
-                    <!-- Botón para mostrar/ocultar el formulario -->
-                    <button id="toggleFormButton1" class="bg-black text-white px-4 py-2 mt-4 rounded-lg">
-                        Inscribirse
-                    </button>
-                
-                    <!-- Formulario oculto inicialmente -->
-                    <div id="formularioCurso1" class="hidden mt-4">
-                        <form>
-                            <label for="nombre" class="block text-gray-700 font-medium">Nombres Completo:</label>
-                            <input
-                                type="text"
-                                id="nombre"
-                                name="nombre"
-                                class="w-full p-2 border border-gray-300 rounded-lg mb-4"
-                                placeholder="Escribe tu nombre"
-                                required
-                            />
-                
-                            <label for="correo" class="block text-gray-700 font-medium">Correo Electrónico:</label>
-                            <input
-                                type="email"
-                                id="correo"
-                                name="correo"
-                                class="w-full p-2 border border-gray-300 rounded-lg mb-4"
-                                placeholder="Escribe tu correo"
-                                required
-                            />
-                
-                            <label for="disponibilidad" class="block text-gray-700 font-medium">Modalidad:</label>
-                            <select
-                                id="disponibilidad"
-                                name="disponibilidad"
-                                class="w-full p-2 border border-gray-300 rounded-lg mb-4"
-                            >
-                                <option value="fines-semana">En Línea</option>
-                                <option value="entre-semana">Híbrido</option>
-                            </select>
-                
-                            <label for="expectativas" class="block text-gray-700 font-medium">¿Por qué estás interesado/a en este curso?</label>
-                            <textarea
-                                id="expectativas"
-                                name="expectativas"
-                                rows="4"
-                                class="w-full p-2 border border-gray-300 rounded-lg mb-4"
-                                placeholder="Describe tus expectativas"
-                            ></textarea>
-                
-                            <button
-                                type="submit"
-                                class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
-                            >
-                                Enviar
-                            </button>
-                        </form>
-                    </div>
-                </div>
-                
+            <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+                <h3 class="text-2xl font-semibold">Introducción al Cambio Climático</h3>
+                <p class="text-gray-500">4 Semanas | En Línea</p>
+                <p class="text-gray-700 mt-2">Aprende los fundamentos del cambio climático y sus impactos globales.</p>
 
-                <div class="bg-white p-6 rounded-lg shadow-md mb-6">
-                    <h3 class="text-2xl font-semibold">Estrategías de Mitigación Climática</h3>
-                    <p class="text-gray-500">2 Días | Presencial</p>
-                    <p class="text-gray-700 mt-2">Explora técnicas prácticas para reducir emisiones de gases de efecto invernadero.</p>
-                
-                    <!-- Botón para mostrar/ocultar el formulario -->
-                    <button id="toggleFormButton2" class="bg-black text-white px-4 py-2 mt-4 rounded-lg">
-                        Inscribirse
-                    </button>
-                
-                    <!-- Formulario oculto inicialmente -->
-                    <div id="formularioCurso2" class="hidden mt-4">
-                        <form>
-                            <label for="nombre" class="block text-gray-700 font-medium">Nombres Completo:</label>
-                            <input
-                                type="text"
-                                id="nombre"
-                                name="nombre"
-                                class="w-full p-2 border border-gray-300 rounded-lg mb-4"
-                                placeholder="Escribe tu nombre"
-                                required
-                            />
-                
-                            <label for="correo" class="block text-gray-700 font-medium">Correo Electrónico:</label>
-                            <input
-                                type="email"
-                                id="correo"
-                                name="correo"
-                                class="w-full p-2 border border-gray-300 rounded-lg mb-4"
-                                placeholder="Escribe tu correo"
-                                required
-                            />
-                
-                            <label for="disponibilidad" class="block text-gray-700 font-medium">Disponibilidad:</label>
-                            <select
-                                id="disponibilidad"
-                                name="disponibilidad"
-                                class="w-full p-2 border border-gray-300 rounded-lg mb-4"
-                            >
-                                <option value="fines-semana">Fines de Semana</option>
-                                <option value="entre-semana">Entre Semana</option>
-                            </select>
-                
-                            <label for="expectativas" class="block text-gray-700 font-medium">¿Por qué estás interesado/a en este curso?</label>
-                            <textarea
-                                id="expectativas"
-                                name="expectativas"
-                                rows="4"
-                                class="w-full p-2 border border-gray-300 rounded-lg mb-4"
-                                placeholder="Describe tus expectativas"
-                            ></textarea>
-                
-                            <button
-                                type="submit"
-                                class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
-                            >
-                                Enviar
-                            </button>
-                        </form>
-                    </div>
-                </div>
-                
+                <!-- Botón para mostrar/ocultar el formulario -->
+                <button id="toggleFormButton1" class="bg-black text-white px-4 py-2 mt-4 rounded-lg">
+                    Inscribirse
+                </button>
 
-                <div class="bg-white p-6 rounded-lg shadow-md mb-6">
-                    <h3 class="text-2xl font-semibold">Adaptación al Cambio Climático</h3>
-                    <p class="text-gray-500">6 Semanas | En Línea</p>
-                    <p class="text-gray-700 mt-2">Descubre cómo las comunidades pueden adaptarse a los cambios climáticos inevitables.</p>
-                
-                    <!-- Botón para mostrar/ocultar el formulario -->
-                    <button id="toggleFormButton3" class="bg-black text-white px-4 py-2 mt-4 rounded-lg">
-                        Inscribirse
-                    </button>
-                
-                    <!-- Formulario oculto inicialmente -->
-                    <div id="formularioCurso3" class="hidden mt-4">
-                        <form>
-                            <label for="nombre" class="block text-gray-700 font-medium">Nombres Completo:</label>
-                            <input
-                                type="text"
-                                id="nombre"
-                                name="nombre"
-                                class="w-full p-2 border border-gray-300 rounded-lg mb-4"
-                                placeholder="Escribe tu nombre"
-                                required
-                            />
-                
-                            <label for="correo" class="block text-gray-700 font-medium">Correo Electrónico:</label>
-                            <input
-                                type="email"
-                                id="correo"
-                                name="correo"
-                                class="w-full p-2 border border-gray-300 rounded-lg mb-4"
-                                placeholder="Escribe tu correo"
-                                required
-                            />
-                
-                            <label for="disponibilidad" class="block text-gray-700 font-medium">Región Climática</label>
-                            <select
-                                id="disponibilidad"
-                                name="disponibilidad"
-                                class="w-full p-2 border border-gray-300 rounded-lg mb-4"
-                            >
-                                <option value="fines-semana">Fines de Semana</option>
-                                <option value="entre-semana">Entre Semana</option>
-                            </select>
-                
-                            <label for="expectativas" class="block text-gray-700 font-medium">¿Cómo crees que puedes aplicar lo aprendido?</label>
-                            <textarea
-                                id="expectativas"
-                                name="expectativas"
-                                rows="4"
-                                class="w-full p-2 border border-gray-300 rounded-lg mb-4"
-                                placeholder="Describe tus expectativas"
-                            ></textarea>
-                
-                            <button
-                                type="submit"
-                                class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
-                            >
-                                Enviar
-                            </button>
-                        </form>
-                    </div>
+                <!-- Formulario oculto inicialmente -->
+                <div id="formularioCurso1" class="hidden mt-4">
+                    <form>
+                        <label for="nombre" class="block text-gray-700 font-medium">Nombres Completo:</label>
+                        <input type="text" id="nombre" name="nombre"
+                            class="w-full p-2 border border-gray-300 rounded-lg mb-4" placeholder="Escribe tu nombre"
+                            required />
+
+                        <label for="correo" class="block text-gray-700 font-medium">Correo Electrónico:</label>
+                        <input type="email" id="correo" name="correo"
+                            class="w-full p-2 border border-gray-300 rounded-lg mb-4" placeholder="Escribe tu correo"
+                            required />
+
+                        <label for="disponibilidad" class="block text-gray-700 font-medium">Modalidad:</label>
+                        <select id="disponibilidad" name="disponibilidad"
+                            class="w-full p-2 border border-gray-300 rounded-lg mb-4">
+                            <option value="fines-semana">En Línea</option>
+                            <option value="entre-semana">Híbrido</option>
+                        </select>
+
+                        <label for="expectativas" class="block text-gray-700 font-medium">¿Por qué estás interesado/a en
+                            este curso?</label>
+                        <textarea id="expectativas" name="expectativas" rows="4"
+                            class="w-full p-2 border border-gray-300 rounded-lg mb-4"
+                            placeholder="Describe tus expectativas"></textarea>
+
+                        <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">
+                            Enviar
+                        </button>
+                    </form>
                 </div>
-                
+            </div>
+
+
+            <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+                <h3 class="text-2xl font-semibold">Estrategías de Mitigación Climática</h3>
+                <p class="text-gray-500">2 Días | Presencial</p>
+                <p class="text-gray-700 mt-2">Explora técnicas prácticas para reducir emisiones de gases de efecto
+                    invernadero.</p>
+
+                <!-- Botón para mostrar/ocultar el formulario -->
+                <button id="toggleFormButton2" class="bg-black text-white px-4 py-2 mt-4 rounded-lg">
+                    Inscribirse
+                </button>
+
+                <!-- Formulario oculto inicialmente -->
+                <div id="formularioCurso2" class="hidden mt-4">
+                    <form>
+                        <label for="nombre" class="block text-gray-700 font-medium">Nombres Completo:</label>
+                        <input type="text" id="nombre" name="nombre"
+                            class="w-full p-2 border border-gray-300 rounded-lg mb-4" placeholder="Escribe tu nombre"
+                            required />
+
+                        <label for="correo" class="block text-gray-700 font-medium">Correo Electrónico:</label>
+                        <input type="email" id="correo" name="correo"
+                            class="w-full p-2 border border-gray-300 rounded-lg mb-4" placeholder="Escribe tu correo"
+                            required />
+
+                        <label for="disponibilidad" class="block text-gray-700 font-medium">Disponibilidad:</label>
+                        <select id="disponibilidad" name="disponibilidad"
+                            class="w-full p-2 border border-gray-300 rounded-lg mb-4">
+                            <option value="fines-semana">Fines de Semana</option>
+                            <option value="entre-semana">Entre Semana</option>
+                        </select>
+
+                        <label for="expectativas" class="block text-gray-700 font-medium">¿Por qué estás interesado/a en
+                            este curso?</label>
+                        <textarea id="expectativas" name="expectativas" rows="4"
+                            class="w-full p-2 border border-gray-300 rounded-lg mb-4"
+                            placeholder="Describe tus expectativas"></textarea>
+
+                        <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">
+                            Enviar
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+                <h3 class="text-2xl font-semibold">Adaptación al Cambio Climático</h3>
+                <p class="text-gray-500">6 Semanas | En Línea</p>
+                <p class="text-gray-700 mt-2">Descubre cómo las comunidades pueden adaptarse a los cambios climáticos
+                    inevitables.</p>
+
+                <!-- Botón para mostrar/ocultar el formulario -->
+                <button id="toggleFormButton3" class="bg-black text-white px-4 py-2 mt-4 rounded-lg">
+                    Inscribirse
+                </button>
+
+                <!-- Formulario oculto inicialmente -->
+                <div id="formularioCurso3" class="hidden mt-4">
+                    <form>
+                        <label for="nombre" class="block text-gray-700 font-medium">Nombres Completo:</label>
+                        <input type="text" id="nombre" name="nombre"
+                            class="w-full p-2 border border-gray-300 rounded-lg mb-4" placeholder="Escribe tu nombre"
+                            required />
+
+                        <label for="correo" class="block text-gray-700 font-medium">Correo Electrónico:</label>
+                        <input type="email" id="correo" name="correo"
+                            class="w-full p-2 border border-gray-300 rounded-lg mb-4" placeholder="Escribe tu correo"
+                            required />
+
+                        <label for="disponibilidad" class="block text-gray-700 font-medium">Región Climática</label>
+                        <select id="disponibilidad" name="disponibilidad"
+                            class="w-full p-2 border border-gray-300 rounded-lg mb-4">
+                            <option value="fines-semana">Fines de Semana</option>
+                            <option value="entre-semana">Entre Semana</option>
+                        </select>
+
+                        <label for="expectativas" class="block text-gray-700 font-medium">¿Cómo crees que puedes aplicar
+                            lo aprendido?</label>
+                        <textarea id="expectativas" name="expectativas" rows="4"
+                            class="w-full p-2 border border-gray-300 rounded-lg mb-4"
+                            placeholder="Describe tus expectativas"></textarea>
+
+                        <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">
+                            Enviar
+                        </button>
+                    </form>
+                </div>
+            </div>
+
         </section>
         <script src="/js/btn_menu.js"></script>
         <script>
             // Seleccionar el botón y el formulario para el primer curso
-const toggleFormButton1 = document.getElementById("toggleFormButton1");
-const formularioCurso1 = document.getElementById("formularioCurso1");
+            const toggleFormButton1 = document.getElementById("toggleFormButton1");
+            const formularioCurso1 = document.getElementById("formularioCurso1");
 
-// Agregar evento de clic al botón del primer curso
-toggleFormButton1.addEventListener("click", () => {
-    // Alternar la clase "hidden" para mostrar/ocultar el formulario
-    formularioCurso1.classList.toggle("hidden");
-});
+            // Agregar evento de clic al botón del primer curso
+            toggleFormButton1.addEventListener("click", () => {
+                // Alternar la clase "hidden" para mostrar/ocultar el formulario
+                formularioCurso1.classList.toggle("hidden");
+            });
 
-// Seleccionar el botón y el formulario para el segundo curso
-const toggleFormButton2 = document.getElementById("toggleFormButton2");
-const formularioCurso2 = document.getElementById("formularioCurso2");
+            // Seleccionar el botón y el formulario para el segundo curso
+            const toggleFormButton2 = document.getElementById("toggleFormButton2");
+            const formularioCurso2 = document.getElementById("formularioCurso2");
 
-// Agregar evento de clic al botón del segundo curso
-toggleFormButton2.addEventListener("click", () => {
-    // Alternar la clase "hidden" para mostrar/ocultar el formulario
-    formularioCurso2.classList.toggle("hidden");
-});
+            // Agregar evento de clic al botón del segundo curso
+            toggleFormButton2.addEventListener("click", () => {
+                // Alternar la clase "hidden" para mostrar/ocultar el formulario
+                formularioCurso2.classList.toggle("hidden");
+            });
 
-// Seleccionar el botón y el formulario para el tercer curso
-const toggleFormButton3 = document.getElementById("toggleFormButton3");
-const formularioCurso3 = document.getElementById("formularioCurso3");
+            // Seleccionar el botón y el formulario para el tercer curso
+            const toggleFormButton3 = document.getElementById("toggleFormButton3");
+            const formularioCurso3 = document.getElementById("formularioCurso3");
 
-// Agregar evento de clic al botón del tercer curso
-toggleFormButton3.addEventListener("click", () => {
-    // Alternar la clase "hidden" para mostrar/ocultar el formulario
-    formularioCurso3.classList.toggle("hidden");
-});
+            // Agregar evento de clic al botón del tercer curso
+            toggleFormButton3.addEventListener("click", () => {
+                // Alternar la clase "hidden" para mostrar/ocultar el formulario
+                formularioCurso3.classList.toggle("hidden");
+            });
 
 
         </script>
 
 
-        
-        
+
+
     </main>
 </body>
 

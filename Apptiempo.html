@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/Css/header.css">
+  <link rel="stylesheet" href="/Css/btn_menu.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <title>App de Tiempo</title>
+  <link rel="stylesheet" href="/Css/Apptiempo.css" />
+  <style>
+    body{
+      display: flex;
+      flex-direction: column;
+    }
+    header{
+      position: absolute;
+      top: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="/img/Logo.png" alt="">
+      <div class="frame">
+        <div class="center">
+          <div class="linea primero"></div>
+          <div class="linea segundo"></div>
+          <div class="linea tercero"></div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="opciones-desplegado">
+
+      <a href="index.html">Inicio</a>
+      <a href="Acciones.html">Acciones</a>
+      <div class="dropdown">
+        <a href="" class="dropbtn">Educación</a>
+        <div class="dropdown-content">
+          <a href="Recursos.html" class="text-white font-semibold">Recursos</a>
+          <a href="Cursos.html" class="text-white font-semibold">Cursos</a>
+          <a href="FAQ.html" class="text-white font-semibold">FAQ</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="#" class="dropbtn">Noticias</a>
+        <div class="dropdown-content">
+          <a href="Apptiempo.html" class="text-white font-semibold">Aplicación de Tiempo</a>
+          <a href="politicas-climaticas.html" class="text-white font-semibold">Politicas Climaticas</a>
+          <a href="tecnologia-verde.html" class="text-white font-semibold">Tecnología verde</a>
+          <a href="impactos-climaticos.html" class="text-white font-semibold">Impactos Climaticos</a>
+          <a href="proyectos-sostenibles.html" class="text-white font-semibold">Proyectos Sostenibles</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="#" class="dropbtn">Recolección</a>
+        <div class="dropdown-content">
+          <a href="Equipo.html" class="text-white font-semibold">Equipo</a>
+          <a href="focus-group.html" class="text-white font-semibold">Focus group</a>
+          <a href="Encuestas.html" class="text-white font-semibold">Encuestas</a>
+          <a href="Entrevistas.html" class="text-white font-semibold">Entrevistas</a>
+          <a href="FlashHallazgos.html" class="text-white font-semibold">Flash De Hallazgos</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="search-box">
+      <i class="bx bxs-map"></i>
+      <input type="text" placeholder="Ingrese su Ubicación" />
+      <button class="bx bx-search"></button>
+    </div>
+    <p class="city-hide">Ciudad escondida</p>
+
+    <div class="weather-box">
+      <div class="box">
+        <div class="info-weather">
+          <div class="weather">
+            <img src="/img/cloud.png" alt="" />
+            <p class="temperature">16<span>C</span></p>
+            <p class="decription"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="weather-details">
+      <div class="humidity">
+        <i class="bx bx-water"></i>
+        <div class="text">
+          <div class="info-humidity">
+            <span>0%</span>
+          </div>
+          <p>humedad</p>
+        </div>
+      </div>
+      <div class="wind">
+        <i class="bx bx-wind"></i>
+        <div class="text">
+          <div class="info-wind">
+            <span>0Km/h</span>
+          </div>
+          <p>Velocidad del Viento</p>
+        </div>
+      </div>
+    </div>
+    <div class="not-found">
+      <div class="box">
+        <img src="/img/404.png" />
+        <p>¡Ups! ¡Ubicación no encontrada!</p>
+      </div>
+    </div>
+  </div>
+  <script src="/js/Apptiempo.js"></script>
+  <script src="/js/btn_menu.js"></script>
+</body>
+
+</html>
